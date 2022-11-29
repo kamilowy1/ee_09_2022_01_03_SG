@@ -1,0 +1,84 @@
+body
+{
+	font-family: Arial;
+	margin: 0 auto;
+}
+
+#lewy
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 55%;
+	font-size: 120%;
+	float: left;
+	
+}
+
+#srodkowy
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+#prawy
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 20%;
+	text-align: right;
+	float: right;
+}
+
+#main
+{
+	clear: both;
+	background-color: Snow;
+	padding: 70px;
+	
+}
+
+#stopka1
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 55%;
+	font-size: 120%;
+	float: left;
+}
+
+#stopka2
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
+
+#stopka3
+{
+	background-color: SaddleBrown;
+	color: white;
+	height: 100px;
+	width: 20%;
+	text-align: right;
+	float: right;
+}
+
+#a
+{
+	border-style: dotted;
+	border-width: 2px;
+	border-color: SaddleBrown;
+	padding: 20px;
+	background-color: Snow;
+	float: left;
+	color: SaddleBrown;
+}
+

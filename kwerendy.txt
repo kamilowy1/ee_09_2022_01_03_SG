@@ -1,0 +1,7 @@
+kw1 - INSERT INTO `ratownicy`(`id`, `nrKaretki`, `ratownik1`, `ratownik2`, `ratownik3`) VALUES ('[value-1]','20','Adam Nowak','Jan Kowalski','Anna Nowakowska');
+
+kw2 -SELECT id, ratownicy_id , adres FROM `zgloszenia` WHERE dyspozytorzy_id = 4;
+
+kw3 - CREATE USER 'adam'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT USAGE ON *.* TO 'adam'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+
+kw4 - GRANT CREATE, DROP, ALTER ON `ee09`, `ratownicy`, To 'adam'@'%';
